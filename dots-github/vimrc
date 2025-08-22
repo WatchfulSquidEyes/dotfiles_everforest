@@ -1,0 +1,36 @@
+syntax on
+set fileformat=unix
+set encoding=UTF-8
+
+set tabstop=3
+set softtabstop=3
+set shiftwidth=3
+set autoindent
+set smartindent
+set smarttab
+set expandtab
+
+set nowrap
+
+set cursorline
+set number
+set scrolloff=8
+set signcolumn=yes
+
+set showcmd
+set noshowmode
+set conceallevel=1
+set noswapfile
+set nobackup
+
+set ignorecase
+set smartcase
+set incsearch
+set hlsearch
+nnoremap <CR> :noh<CR><CR>:<backspace>
+
+set termguicolors
+set background=dark
+
+so ~/.vim/plugged.vim
+colorscheme everforest
