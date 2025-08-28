@@ -24,11 +24,11 @@ set $wm_smart_gaps off
 
 # Startup Applications
 exec --no-startup-id dex --autostart --environment i3
-exec_always --no-startup-id ~/.fehbg 
+exec_always --no-startup-id feh --bg-fill ~/.config/wallpapers/Arch-Hard.png
 #exec --no-startup-id nitrogen --restore
 exec_always --no-startup-id "killall picom; sleep 0.5; picom -b"
-exec_always --no-startup-id "sleep 1; ~/.config/xborder/./launch_xborder.sh"
-exec_always --no-startup-id ~/.config/polybar/launch_polybar.sh
+exec_always --no-startup-id "sleep 1; ~/scripts/./launch_xborder.sh"
+exec_always --no-startup-id ~/scripts/launch_polybar.sh
 
 # Manual Launch Applications
 set $wm_terminal kitty
