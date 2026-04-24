@@ -1,0 +1,3 @@
+xrandr --output eDP-1 --mode 2560x1600
+xrdb -merge ~/.Xresources
+exec i3
